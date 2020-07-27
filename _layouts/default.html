@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{page.title}}</title> <!--{{text}} are liquid tags, everything else stays the same.-->
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="">Home</a></li>
+        		<li><a href="../resume">Resume</a></li>
+				<li><a href="../projects">Projects</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		{{content}}
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href="mailto:thecatherinehaugn@berkeley.edu">email</a></li>
+        		<li><a href="https://github.com/thecatherinehuang">github.com/thecatherinehuang</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
