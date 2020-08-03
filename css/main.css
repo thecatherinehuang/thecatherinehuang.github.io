@@ -16,9 +16,11 @@ a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -33,10 +35,13 @@ footer {
     font-size: .8em;
 }
 
-img{
-    max-width: 60%;
-    height: auto;
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
